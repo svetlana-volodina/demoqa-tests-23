@@ -20,7 +20,7 @@ public class PracticeFormTests {
 	}
 
 	@Test
-	void fillFormTest() {
+	void fillPracticeFormTest() {
 		open("/automation-practice-form");
 		$("#firstName").setValue("Svetlana");
 		$("#lastName").setValue("Volodina");
