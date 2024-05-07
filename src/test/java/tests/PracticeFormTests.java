@@ -32,10 +32,9 @@ public class PracticeFormTests {
 		$("#userNumber").setValue("9101112233");
 		$("label[for='gender-radio-2']").click();
 		$("[id=dateOfBirthInput]").click();
-		$("[class=react-datepicker__year-select]>[value='1988']").click();
-		$("[class=react-datepicker__month-select]>[value='8']").click();
+		$(".react-datepicker__year-select").selectOption("1988");
+		$(".react-datepicker__month-select").selectOption("September");
 		$(".react-datepicker__month .react-datepicker__day--003").click();
-		$("#subjectsContainer").click();
 		$("#subjectsInput").setValue("Computer Science").pressEnter();
 		$("label[for='hobbies-checkbox-2']").click();
 		$("label[for='hobbies-checkbox-3']").click();
